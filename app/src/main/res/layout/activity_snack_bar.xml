@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,23 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jia.materialdesignui.SnackBarActivity">
 
-
-    <com.gc.materialdesign.views.Slider
-        android:id="@+id/slider"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="#1E88E5"
-        materialdesign:max="50"
-        materialdesign:min="0" />
-
-    <com.gc.materialdesign.views.Slider
-        android:id="@+id/slider2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:background="#1E88E5"
-        materialdesign:max="50"
-        materialdesign:min="0"
-        materialdesign:showNumberIndicator="true" />
+    <Button
+        android:id="@+id/bt_click"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="CLICK"
+        android:textColor="#fff" />
 </LinearLayout>
