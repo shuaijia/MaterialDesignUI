@@ -15,6 +15,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ButtonActivity"
+            android:label="Button" />
+        <activity
+            android:name=".SwitchActivity"
+            android:label="Switch" />
+        <activity
+            android:name=".ProgressActivity"
+            android:label="Progress" />
+        <activity
+            android:name=".SnackBarActivity"
+            android:label="SnackBar" />
+        <activity
+            android:name=".DialogActivity"
+            android:label="Dialog" />
+        <activity
+            android:name=".ColorSelectorActivity"
+            android:label="ColorSelector" />
     </application>
 
 </manifest>

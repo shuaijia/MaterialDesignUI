@@ -28,4 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
 }
